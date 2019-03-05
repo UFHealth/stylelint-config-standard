@@ -1,0 +1,17 @@
+$something: true;
+
+@if $something {
+  .conditional {
+    color: blue;
+  }
+}
+
+.class {
+  color: red;
+
+  .subclass {
+    color: #AB10CD;
+  }
+}
+
+.inline { font-weight: bold; }
