@@ -1,7 +1,5 @@
 $something: true;
-
-
-@if $something {
+@invalid-at $something {
   .conditional {
     color: blue;
   }
@@ -9,10 +7,13 @@ $something: true;
 
 .class {
   color: red;
+
   .subclass {
 
-    color: #ab10cd;
+    color: #ab1;
+  } .subclass2 {
+    color: #ABCDEF;
   }
 }
 
-.inline { font-weight: bold; color: magenta; text-decoration: none }
+.inline { font-weight: bold; color: magenta; text-decoration: none; }
