@@ -1,6 +1,6 @@
 {
   "name": "@ufhealth/stylelint-config-standard",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Shareable stylesheet standard for UF Health web development",
   "keywords": [
     "stylelint",
